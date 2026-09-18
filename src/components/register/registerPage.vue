@@ -205,8 +205,8 @@
     height: 470px;
   }
   .login-back {
-    background-image: url('@/assets/images/login/login-back.png');
-    background-size: 100% 100%;
+    // background-image: url('@/assets/images/login/login-back.png');
+    // background-size: 100% 100%;
     padding: 25px 20px 0px;
     color: #fff;
     width: 700px;
