@@ -1,0 +1,11 @@
+.custom-table {
+  .custom-form-item .custom-form-item-label >label {
+    color: var(--form-label-color);
+  }
+
+  .custom-select-arrow {
+    .anticon-down {
+      color: var(--form-item-icon);
+    }
+  }
+}

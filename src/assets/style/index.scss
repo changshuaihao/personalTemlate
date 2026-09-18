@@ -1,0 +1,55 @@
+@import './constants/index.scss';
+@import './theme.scss';
+
+.header-comp {
+  padding: 0 $header-component-margin;
+  cursor: pointer;
+  color: var(--account-text-color);
+  &:hover {
+    background-color: var(--system-comp-hover-background-color);
+  }
+}
+
+body {
+  color: var(--system-text-color);
+}
+
+// 下拉菜单图标
+.anticon-down {
+  color: var(--account-text-color);
+  font-size: 10px !important;
+}
+
+.custom-table-thead > tr > th {
+  background: var(--table-header-background-color) !important;
+  font-weight: 700;
+}
+
+/* 分页控件 */
+.custom-pagination-item-active {
+  background-color: rgb(47, 84, 235) !important;
+}
+
+.custom-pagination-item-active a {
+  color: #fff !important;
+}
+
+.custom-pagination-item-active:hover a {
+  color: #fff !important;
+}
+
+.tag_icon {
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -4px;
+  font-size: 16px;
+  color: #1ebdfd;
+}
+.tag_title {
+  font-weight: bold;
+}
+
+.card-wrap {
+  box-shadow: 0 8px 28px #0000000d;
+  border-radius: 16px;
+}
