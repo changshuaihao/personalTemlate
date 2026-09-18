@@ -23,7 +23,8 @@ const getRouteNames = (array) => {
 getRouteNames(basicRoutes);
 
 export const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_PUBLIC_PATH),
+  // history: createWebHistory(import.meta.env.VITE_PUBLIC_PATH),
+  history: createWebHistory(import.meta.env.BASE_URL), // github部署配置
   routes: basicRoutes,
   strict: true,
   scrollBehavior: () => ({
