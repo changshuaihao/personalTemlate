@@ -9,7 +9,7 @@
     "dev": "husky install && vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs --fix",
     "prepare": "husky install",
     "test": "vitest"
   },
