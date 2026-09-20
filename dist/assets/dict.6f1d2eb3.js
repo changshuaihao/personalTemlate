@@ -1,1 +1,0 @@
-import{a,R as e}from"./index.2ea590c6.js";const r=({current:t,size:i,dictType:s,dictLabel:c})=>a.get(`/dict/page?current=${t}&size=${i}${e(s,"dictType")}${e(c,"dictLabel")}`),n=t=>a.get(`/dict/page?${e(t,"dictType")}`),o=t=>a.post("/dict/add",t),D=t=>a.post("/dict/edit",t),p=t=>a.post(`/dict/del?id=${t}`);export{o as a,n as b,p as d,D as e,r as g};
