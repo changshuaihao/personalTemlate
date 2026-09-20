@@ -11,7 +11,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  base: '/personalTemlate/', //  资源路径添加上github仓库名
+  // base: '/personalTemlate/', //  资源路径添加上github仓库名
   server: {
     proxy: {
       '/api': {
