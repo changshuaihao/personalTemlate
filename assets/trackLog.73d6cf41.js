@@ -1,0 +1,1 @@
+import{a,L as e}from"./index.1564dd54.js";const o=t=>a.get(`/functionHotSpots/page?${e([{field:"insertTime",asc:!1}])}`,{params:t}),i=t=>a.get("/functionHotSpots/getCountData",{params:t}),g=t=>a.get(`/sysOperateLog/page?${e([{field:"insertTime",asc:!1}])}`,{params:t});export{i as a,o as b,g};
